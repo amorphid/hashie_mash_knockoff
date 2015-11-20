@@ -46,7 +46,7 @@ defaults = { a: 123, b: { c: true  }, d: { e: 'ಠ_ಠ' } }
 hashie_mash_knockoff = HashieMashKnockoff.new(hash, defaults)
 hashie_mash_knockoff.a   # returns 123,  overrides falsey nil
 hashie_mash_knockoff.b.c # returns true, overrides falsey false
-hashie_mash_knockoff.d.e # returns 'lol', not overriden due to 'lol' being truthy
+hashie_mash_knockoff.d.e # returns '>_<', not overriden due to '>_<' being truthy
 ```
 
 ## License
